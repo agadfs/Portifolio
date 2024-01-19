@@ -9,7 +9,7 @@ const SkillText = () => {
     <div className='w-full h-auto flex flex-col items-center justify-center '>
      
       <motion.div
-        variants={slideInFromLeft(0.5)}
+        variants={slideInFromLeft(4)}
         className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
       >
         My skills (Level measured by time of usage, and coding speed):

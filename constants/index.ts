@@ -96,6 +96,22 @@ export const Skill_data = [
       height: 80,
     },
     {
+      skill_name: "Node js",
+      Level: "50",
+      Tipo: "B",
+      Image: "/node-js.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Mongo db",
+      Level: "40",
+      Tipo: "B",
+      Image: "/mongodb.png",
+      width: 40,
+      height: 40,
+    },
+    {
       skill_name: "Framer Motion",
       Level: "20",
       Tipo: "F",
@@ -119,22 +135,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Node js",
-      Level: "50",
-      Tipo: "B",
-      Image: "/node-js.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Mongo db",
-      Level: "40",
-      Tipo: "B",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
-    },
+   
   
   ];
   

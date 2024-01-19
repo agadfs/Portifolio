@@ -10,9 +10,10 @@ interface Props {
     width: number;
     height: number;
     index: number;
+    delayW: number;
 }
 
-const SkillDataProvider = ({ src, width, height, index }: Props) => {
+const SkillDataProvider = ({ src, width, height, index, delayW }: Props) => {
     const { ref, inView } = useInView({
         triggerOnce: true
     })
@@ -22,7 +23,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
         visible: { opacity: 1 }
     }
 
-    const animationDelay = 0.3
+    const animationDelay = 0.1
     return (
         <motion.div
             ref={ref}
@@ -30,7 +31,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
             variants={imageVariants}
             animate={inView ? "visible" : "hidden"}
             custom={index}
-            transition={{ delay: index * animationDelay }}
+            transition={{ delay: delayW + (index * animationDelay )}}
         >
             <Image
                 src={src}

@@ -27,6 +27,7 @@ const Skills = () => {
                 width={image.width}
                 height={image.height}
                 index={index}
+                delayW={1}
 
               />
               <div className='text-center text-white ' >{image.skill_name} </div>
@@ -48,6 +49,7 @@ const Skills = () => {
                 width={image.width}
                 height={image.height}
                 index={index}
+                delayW={2}
 
               />
               <div className='text-center text-white ' >{image.skill_name} </div>
@@ -69,6 +71,7 @@ const Skills = () => {
                 width={image.width}
                 height={image.height}
                 index={index}
+                delayW={3}
 
               />
               <div className='text-center text-white ' >{image.skill_name} </div>
@@ -77,19 +80,8 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      <div className="w-full h-full absolute">
-        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-         {/*  <video
-            className="w-full h-auto"
-            preload="false"
-            playsInline
-            loop
-            muted
-            autoPlay
-            src="/cards-video.webm"
-          /> */}
-        </div>
-      </div>
+      
+      
     </section>
   );
 };
