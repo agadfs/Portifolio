@@ -15,7 +15,9 @@ const Footer = () => {
 
 
                     <div id="contact-me" className="min-w-[200px] z-30 h-auto flex flex-col max-[600px]:my-10 max-[600px]:top-[-350px] items-center justify-start">
-                        <div className="font-bold text-[26px] mb-10">Contact Me</div>
+                        <div className="font-bold text-[26px] mb-5">Contact Me</div>
+                        <div style={{marginBottom:'25px'}} >My CV : <a style={{textDecoration:'underline'}} href='./curriculo.pdf' download> Download</a>
+                        </div>
                         <div className="flex flex-row gap-5   ">
                             {Socials.map((social, index) => (
                                 <Link href={social.url} key={index}>
@@ -25,7 +27,7 @@ const Footer = () => {
                                             alt={social.name}
                                             width={34}
                                             height={34}
-                                            style={{ filter: 'invert(1)', width:'auto', height:'auto' }}
+                                            style={{ filter: 'invert(1)', width: 'auto', height: 'auto' }}
                                         />
                                         :
 
@@ -53,9 +55,9 @@ const Footer = () => {
                         </Link>
                         <Link href="https://henriqueportifolio.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
-                           My old portifolio website (Brazil , EN-US) (WebSite, Front-End)
+                            My old portifolio website (Brazil , EN-US) (WebSite, Front-End)
                         </Link>
-                        
+
                     </div>
                 </div>
 
