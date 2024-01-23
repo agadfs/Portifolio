@@ -16,7 +16,9 @@ const Footer = () => {
 
                     <div id="contact-me" className="min-w-[200px] z-30 h-auto flex flex-col max-[600px]:my-10 max-[600px]:top-[-350px] items-center justify-start">
                         <div className="font-bold text-[26px] mb-5">Contact Me</div>
-                        <div style={{marginBottom:'25px'}} >My CV : <a style={{textDecoration:'underline'}} href='./curriculo.pdf' download> Download</a>
+                        <div style={{ marginBottom: '25px' }} >My CV : <a style={{ textDecoration: 'underline' }}
+                            href='./curriculo.pdf' target="_blank"
+                            rel="noopener noreferrer" download> Download</a>
                         </div>
                         <div className="flex flex-row gap-5   ">
                             {Socials.map((social, index) => (
