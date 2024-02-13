@@ -58,7 +58,7 @@ const Footer = () => {
                         </Link>
                         <Link href="https://ecommercevercelv1.vercel.app/home" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
-                           My first Ecommerce with suport for non-devs (Brazil , PT-BR) (WebSite, Front/Back-End) (NextJS, ServelessCMS, MongoDB, Vercel)
+                           My first Ecommerce with suport for non-devs usage with DatoCMS (Brazil , PT-BR) (WebSite, Front/Back-End) (NextJS, ServelessCMS, MongoDB, Vercel)
                            
                         </Link>
                         <Link href="https://henriqueportifolio.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
