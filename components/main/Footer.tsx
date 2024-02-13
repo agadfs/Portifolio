@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
 
                     <div id="projects" className=" z-30 min-w-[200px] h-auto flex flex-col items-center justify-start">
-                        <div className="font-bold text-[16px]">Completed Projects Link</div>
+                        <div className="font-bold text-[16px]">Current or Completed Projects Links</div>
 
                         <Link href="https://legarden-site.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
@@ -58,7 +58,8 @@ const Footer = () => {
                         </Link>
                         <Link href="https://ecommercevercelv1.vercel.app/home" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
-                           My first Ecommerce with suport for non-devs (Brazil , EN-US) (WebSite, Front/Back-End) (NextJS, ServelessCMS, MongoDB, Vercel)
+                           My first Ecommerce with suport for non-devs (Brazil , PT-BR) (WebSite, Front/Back-End) (NextJS, ServelessCMS, MongoDB, Vercel)
+                           
                         </Link>
                         <Link href="https://henriqueportifolio.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
