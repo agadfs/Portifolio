@@ -89,7 +89,7 @@ export const Skill_data = [
     },
     {
       skill_name: "Next js 13",
-      Level: "70",
+      Level: "60",
       Tipo: "B",
       Image: "/next.png",
       width: 80,
@@ -97,7 +97,7 @@ export const Skill_data = [
     },
     {
       skill_name: "Node js",
-      Level: "50",
+      Level: "60",
       Tipo: "B",
       Image: "/node-js.png",
       width: 80,
@@ -105,7 +105,7 @@ export const Skill_data = [
     },
     {
       skill_name: "Mongo db",
-      Level: "40",
+      Level: "70",
       Tipo: "B",
       Image: "/mongodb.png",
       width: 40,
