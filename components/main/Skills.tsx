@@ -19,7 +19,7 @@ const Skills = () => {
       {/* F = FRONT END , B = BACK END, L = LINGUAGEM */}
         {Skill_data.filter(image => image.Tipo === 'L' ).map((image, index) => (
 
-          <div className="border px-2 py-2 h-40 w-24  " key={index} >
+          <div className=" px-2 py-2 h-40 w-24  " key={index} >
             <div className=' text-center text-white' >Level: {image.Level}
               <SkillDataProvider
                 key={index}
@@ -41,7 +41,7 @@ const Skills = () => {
       {/* F = FRONT END , B = BACK END, L = LINGUAGEM */}
         {Skill_data.filter(image => image.Tipo === 'F' ).map((image, index) => (
 
-          <div className="border px-2 py-2 h-40 w-24  " key={index} >
+          <div className=" px-2 py-2 h-40 w-24  " key={index} >
             <div className=' text-center text-white' >Level: {image.Level}
               <SkillDataProvider
                 key={index}
@@ -63,7 +63,7 @@ const Skills = () => {
       {/* F = FRONT END , B = BACK END, L = LINGUAGEM */}
         {Skill_data.filter(image => image.Tipo === 'B' ).map((image, index) => (
 
-          <div className="border px-2 py-2 h-40 w-24  " key={index} >
+          <div className=" px-2 py-2 h-40 w-24  " key={index} >
             <div className=' text-center text-white' >Level: {image.Level}
               <SkillDataProvider
                 key={index}
