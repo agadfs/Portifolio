@@ -36,7 +36,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      <div className="text-white text-2xl">Front-End</div>
+      <div className="text-white text-2xl">FrameWorks and Design</div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-2 items-center">
       {/* F = FRONT END , B = BACK END, L = LINGUAGEM */}
         {Skill_data.filter(image => image.Tipo === 'F' ).map((image, index) => (
@@ -58,7 +58,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      <div className="text-white text-2xl">Back-End</div>
+      <div className="text-white text-2xl">API's</div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-2 items-center">
       {/* F = FRONT END , B = BACK END, L = LINGUAGEM */}
         {Skill_data.filter(image => image.Tipo === 'B' ).map((image, index) => (

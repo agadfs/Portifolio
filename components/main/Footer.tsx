@@ -50,22 +50,31 @@ const Footer = () => {
                     </div>
 
                     <div id="projects" className=" z-30 min-w-[200px] h-auto flex flex-col items-center justify-start">
-                        <div className="font-bold text-[16px]">Current or Completed Projects Links</div>
+                        <div className="font-bold text-[16px]">Completed Projects Links or (Current)</div>
+                        <Link href="https://appoint-me-site.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
-                        <Link href="https://legarden-site.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
+                            (CURRENT) Appoint Me (Global, PT-BR/EN-US) (WebSite, Front/Back End) (MongoDB, NextJS, GraphQl, Vercel, auth0, ServelessCMS)
+                        </Link>
+                        <Link href="https://criptoproject.vercel.app" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
-                            Le Garden Pousada Boutique (Brazil , PT-BR) (WebSite, Front/Back-End) (NextJS, ServelessCMS, XataIO, auth0, Vercel)
+                           DigiCoins, WebSite integration with MetaMask CryptoCoins Wallet, Web3, and CoinsGecko (Global, PT-BR/EN-US) (React, MetaMask SDK, CoinsGeckoSDK, Redux)
                         </Link>
                         <Link href="https://ecommercevercelv1.vercel.app/home" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
-                           My first Ecommerce with suport for non-devs usage with DatoCMS (Brazil , PT-BR) (WebSite, Front/Back-End) (NextJS, ServelessCMS, MongoDB, Vercel)
-                           
+                            My first Ecommerce with suport for non-devs usage with DatoCMS (Brazil , PT-BR) (WebSite, Front/Back-End) (NextJS, ServelessCMS, MongoDB, Vercel)
+
+                        </Link>
+                        <Link href="https://legarden-site.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
+
+                            Le Garden Pousada Boutique (Brazil , PT-BR) (WebSite, Front/Back-End) (NextJS, ServelessCMS, XataIO, auth0, Vercel)
                         </Link>
                         <Link href="https://henriqueportifolio.vercel.app/" className="border py-2 px-2 flex flex-row items-center my-[15px] cursor-pointer">
 
                             My old portifolio website (Brazil , EN-US) (WebSite, Front-End) (React, Xataio)
                         </Link>
+
                         
+
 
                     </div>
                 </div>

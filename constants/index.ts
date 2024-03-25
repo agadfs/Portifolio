@@ -135,6 +135,39 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
+    {
+      skill_name: "MetaMask",
+      Level: "60",
+      Tipo: "F",
+      Image: "/MetaMask_Fox.svg.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "GraphQl",
+      Level: "60",
+      Tipo: "B",
+      Image: "/graphql.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "CoiNGecko",
+      Level: "60",
+      Tipo: "B",
+      Image: "/coingecko.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "ExpressJS",
+      Level: "60",
+      Tipo: "B",
+      Image: "/express-js.png",
+      width: 80,
+      height: 80,
+    },
+   
    
   
   ];
