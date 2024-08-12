@@ -18,7 +18,7 @@ export default function Home() {
         
         " >
 
-        Currently, i have changed my undergraduation to computer science and i am seeking
+        Some time ago, i have changed my undergraduation to computer science and i am seeking
         the opportunity to contribute to my professional development. Although I do not yet
         possess a higher education degree in the field, I am committed to seeking knowledge and continuous improvement.
         I plan to enroll in a higher education or technology course to strengthen my educational
